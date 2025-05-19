@@ -67,7 +67,7 @@ export default function Home() {
         <div
           key={idx}
           // max-w-[500px]
-          className="flex flex-col items-center flex-1 min-w-[150px]  bg-white rounded-2xl shadow-lg border-2 border-[#eee] overflow-hidden m-2"
+          className="flex flex-col items-center flex-1 min-w-[180px] max-w-[500px] bg-white rounded-2xl shadow-lg border-2 border-[#eee] overflow-hidden m-2"
         >
           <div className="relative w-full pb-[56.25%] h-0 bg-black">
             <iframe
