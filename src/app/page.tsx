@@ -21,10 +21,14 @@ export default function Home() {
           key={idx}
           className="flex flex-col items-center flex-1 min-w-[300px] max-w-[500px] bg-white rounded-2xl shadow-lg border-2 border-[#eee] overflow-hidden m-2"
         >
-          <div className="w-full px-5 pt-5 pb-2 box-border text-center">
-            <span className="text-[1.2rem] text-[#333] tracking-wide">
-              <b>ชื่อเรื่อง</b> {video.title}
-            </span>
+          <div className="w-full px-5 pt-5 pb-2 box-border text-left">
+            <div className="text-[1.2rem] text-[#333] tracking-wide">
+              <b>ชื่อวิดีโอ </b> {video.title}
+            </div>
+            <div className="text-[1.2rem] text-[#333] tracking-wide">
+              <b>วันที่ </b> {video.day}
+              <b> เวลา </b> {video.time}
+            </div>
           </div>
           <div className="relative w-full pb-[56.25%] h-0 bg-black">
             <iframe
