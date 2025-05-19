@@ -1,7 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import "/001_ThisIsWork/my-fam/src/app/navbar.css";
-
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
